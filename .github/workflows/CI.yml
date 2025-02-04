@@ -2,8 +2,8 @@ name: CI Integration
 on: [push, pull_request]
 jobs:
   build:
-	runs-on: ubuntu-latest
-	  steps:
-	    - uses: actions/checkout@v2
-	    - name: Install dependencies
-		  run: npm install
+    runs-on: ubuntu-latest
+    steps:
+        - uses: actions/checkout@v2
+        - name: Install Dependencies
+          run: npm install
